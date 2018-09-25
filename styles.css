@@ -1,0 +1,51 @@
+body {
+	max-width: 700px;
+	margin: auto;
+	text-align: center;
+	background-image: linear-gradient(to right, pink , white);
+   
+    
+	
+
+}
+
+img {
+	border: 5px solid pink;
+	border-radius: 100%;
+	display: block;
+	margin: auto;
+	max-width: 300px;
+
+}
+
+h1 {
+	color: pink;
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+	font-size: 50px;
+
+}
+ h3 {
+ 	color: pink;
+ 	text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+ }
+
+p {
+	
+
+	font-family: 'Barlow', sans-serif;
+	font-size: 20px;
+
+}
+
+a {
+	text-decoration: none;
+	color: pink;
+}
+
+div 
+{
+	line-height: .5;
+}
