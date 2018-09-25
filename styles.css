@@ -23,29 +23,29 @@ h1 {
 
 }
 
- h3 {
- 	color: #FFFFFF;
- 	text-align: center;
-    font-family: 'Satisfy', cursive;
-    font-size: 30px;
- }
-
 
 p {
 	font-family: 'Barlow', sans-serif;
 	font-size: 20px;
 }
-
-a {
-	text-decoration: none;
-	color: #FFFFFF;
+.topnav {
+	margin: 20px 0 80px 0;
 }
 
-a:hover {
+.topnav a {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+	font-size: 20px;
+}
+.topnav a .active {
+    color: #0797FF;
+
+}
+
+.topnav a:hover {
 	color: #0797FF;
 }
 
-div 
-{
-	line-height: .5;
-}
