@@ -40,10 +40,6 @@ p {
     font-family: 'Barlow', sans-serif;
 	font-size: 20px;
 }
-.topnav a .active {
-    color: #0797FF;
-
-}
 
 .topnav a:hover {
 	color: #0797FF;
