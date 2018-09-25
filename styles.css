@@ -4,9 +4,6 @@ body {
 	text-align: center;
 	background-image: linear-gradient(to right, #0797FF, #F597FF, #FF91C4)
    
-    
-	
-
 }
 
 img {
@@ -25,6 +22,7 @@ h1 {
 	font-size: 50px;
 
 }
+
  h3 {
  	color: #FFFFFF;
  	text-align: center;
@@ -32,18 +30,17 @@ h1 {
     font-size: 30px;
  }
 
-p {
-	
 
+p {
 	font-family: 'Barlow', sans-serif;
 	font-size: 20px;
-
 }
 
 a {
 	text-decoration: none;
 	color: #FFFFFF;
 }
+
 a:hover {
 	color: #0797FF;
 }
