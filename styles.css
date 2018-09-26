@@ -1,6 +1,6 @@
 body {
 	
-	margin: auto;
+	margin: 0;
 }
 
 header {
@@ -11,7 +11,7 @@ header {
 img {
 	border: 7px solid #FFFFFF;
 	border-radius: 100%;
-	margin: 40px 0px 0px 0px;
+	margin: 40px 0 0 0;
 	max-width: 300px;
 
 }
