@@ -26,10 +26,12 @@ img {
 h1 {
 	font-family: 'Lobster', cursive;
 	color: #FF91C4;
+	letter-spacing: 0.2rem;
 }
 
 h3 {
 	color: #0797FF;
+
 }
 a {
 	text-decoration: none;
