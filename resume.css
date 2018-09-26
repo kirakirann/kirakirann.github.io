@@ -16,8 +16,8 @@ header {
 }
 
 .active {
-	border-bottom: 2px solid #FF91C4;
-	color: #FF91C4;
+	border-bottom: 2px solid #e89cbd;
+	color: #e89cbd;
 }
 
 .container {
@@ -33,23 +33,23 @@ img {
 
 h1 {
 	font-family: 'Lobster', cursive;
-	color: #FF91C4;
+	color: #e89cbd;
 	letter-spacing: 0.2rem;
 }
 
 h3 {
-	color: #0797FF;
+	color: #8ec3e9;
 
 }
 a {
 	text-decoration: none;
-	color:#0797FF;
+	color:#8ec3e9;
 	padding: 10px;
 	font-size: 20px;
 }
 
 a:hover {
-	color: #FF91C4;
+	color: #e89cbd;
 }
 
 hr{
