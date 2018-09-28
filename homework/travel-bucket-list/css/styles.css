@@ -1,23 +1,29 @@
 body {
-	width: 800px;
+	width: 900px;
 	margin: auto;
 	text-align: center;
-	font-family: 'Barlow', sans-serif;
-	background: #000;
+	background: grey;
 }
 
 h1 {
-	background: #8ec3e9;
-	padding: 20px;
+	font-size: 40px;
+	font-family: 'Barlow', sans-serif;
+	color: #fff;
+      
 }
 
 img {
 	width: 500px;
 }
 
+header {
+	background: #8ec3e9;
+	padding: 20px;
+}
+
 .content {
 	background: #fff;
-	border: 20px solid #fff;
+	border: 10px solid #fff;
 }
 
 .navbar {
@@ -28,18 +34,21 @@ img {
 }
 
 .post {
-	background: #e89cbd;
+	background: #e89cbda8;
 	padding: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
+	font-family: 'Barlow', sans-serif;
+
 }
 
 #yellow {
-	background: #dca2c8;
+	background: #e09dc9;
 }
 
 a {
 	text-decoration: none;
-	padding: 10px;
+	font-family: 'Barlow', sans-serif;
+	margin: 10px;
 	color: #e89cbd;
 }
 
@@ -49,5 +58,5 @@ a:hover {
 
 .footer {
 	background: #fff;
-	padding: 20px;
+	padding: 10px;
 }
