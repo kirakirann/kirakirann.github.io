@@ -2,14 +2,13 @@ body {
 	width: 900px;
 	margin: auto;
 	text-align: center;
-	background: grey;
+	background: #bbd3e4;
 }
 
 h1 {
 	font-size: 40px;
 	font-family: 'Barlow', sans-serif;
-	color: #fff;
-      
+	color: #fff;    
 }
 
 img {
@@ -42,7 +41,7 @@ header {
 }
 
 #yellow {
-	background: #e09dc9;
+	background: #ccdbe6;
 }
 
 a {
