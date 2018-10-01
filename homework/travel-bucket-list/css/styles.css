@@ -1,10 +1,9 @@
 body {
-	/*width: 900px;*/
-	/*margin: auto;*/
+
 	text-align: center;
 	background: #bbd3e4;
 	padding: 16px;
-	margin: 0;
+	
 }
 
 h1 {
@@ -14,7 +13,7 @@ h1 {
 }
 
 img {
-	width: 500px;
+	width: 800px;
 }
 
 header {
