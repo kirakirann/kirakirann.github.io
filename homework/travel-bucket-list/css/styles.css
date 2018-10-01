@@ -1,7 +1,7 @@
 body {
 
 	text-align: center;
-	background: #bbd3e4;
+	background-image: linear-gradient(60deg, #bbd3e4, #e89cbda8);
 	padding: 16px;
 	
 }
@@ -13,7 +13,7 @@ h1 {
 }
 
 img {
-	width: 800px;
+	width: 50%;
 }
 
 header {
@@ -48,8 +48,13 @@ header {
 a {
 	text-decoration: none;
 	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 2px;
 	margin: 10px;
-	color: #e89cbd;
+	/*color: #e89cbd;*/
+	color: #000;
+
 }
 
 a:hover {
