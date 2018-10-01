@@ -21,7 +21,7 @@ header {
 	padding: 20px;
 }
 
-.content {
+.container {
 	background: #fff;
 	border: 10px solid #fff;
 }
@@ -63,5 +63,4 @@ a:hover {
 footer {
 	background: #fff;
 	padding: 20px;
-	padding-top: 40px;
 }
