@@ -52,7 +52,6 @@ a {
 	font-size: 20px;
 	letter-spacing: 2px;
 	margin: 10px;
-	/*color: #e89cbd;*/
 	color: #000;
 
 }
@@ -61,7 +60,7 @@ a:hover {
 	color: #8ec3e9;
 }
 
-.footer {
+footer {
 	background: #fff;
 	padding: 20px;
 }
