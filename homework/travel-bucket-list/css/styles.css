@@ -34,7 +34,7 @@ header {
 }
 
 .post {
-	background: #e89cbda8;
+	background: #efe7eba8;
 	padding: 10px;
 	margin-bottom: 40px;
 	font-family: 'Barlow', sans-serif;
@@ -42,7 +42,7 @@ header {
 }
 
 #yellow {
-	background: #ccdbe6;
+	background: #ebf7ff;
 }
 
 a {
@@ -63,4 +63,5 @@ a:hover {
 footer {
 	background: #fff;
 	padding: 20px;
+	padding-top: 40px;
 }
