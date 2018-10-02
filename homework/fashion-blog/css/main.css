@@ -1,8 +1,9 @@
 .container {
 	width: 720px;
 	background: #fff;
-	padding: 20px;
-	margin: 20px;
+	padding: 10px;
+	margin: 10px;
+	border-left: solid 6px #dddddd;
 
 }
 
@@ -11,25 +12,34 @@ header {
 
 }
 
-.introp {
+.people {
 	color: #000;
 	font-size: 20px;
 }
 
 h1 {
-	color: red;
+	color: #dd0000;
 }
 
 .date {
 	font-size: 20px;
-	color: grey;
+	color: #cccccc;
 }
 img {
 	width: 720px;
 }
 
+
+
+article {
+	color: #444444;
+	font-family: "Lato"; 
+    line-height: 1.5;
+}
+
 .red a{
-	color: red;
+	color: #dd0000;
+
 	
 }
 
@@ -38,11 +48,15 @@ img {
 }
 
 a {
-	text-decoration: none;
 	font-size: 20px;
 	padding-right: 10px;
-	color: grey;
+	color: #dddddd;
+	text-decoration: none;
 	
+}
+
+a:hover {
+	color: #000;
 }
 
 footer {
@@ -50,3 +64,17 @@ footer {
 
 }
 
+footer a {
+color: #dd0000;
+
+}
+
+#copy-right {
+	color: #bbbbbb;
+}
+hr {
+	border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
