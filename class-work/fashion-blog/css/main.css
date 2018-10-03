@@ -4,11 +4,12 @@
 	padding: 10px;
 	margin: 10px;
 	border-left: solid 6px #dddddd;
+	font-family: "Lato";
 
 }
 
 header {
-	margin-bottom: 54px;
+/*	margin-bottom: 54px;*/
 
 }
 
@@ -19,6 +20,7 @@ header {
 
 h1 {
 	color: #dd0000;
+	font-size: 50px;
 }
 
 .date {
