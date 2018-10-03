@@ -42,12 +42,21 @@ a {
 	
 }
 
+a:hover {
+	color: #000;
+}
+
 .header .nav a {
 	color: #dddddd;
 	padding-right: 20px;
 	font-size: 20px;
 	font-weight: bold;
 }
+
+.header .nav a:hover {
+	color: #000;
+}
+
 
 .container {
 	width: 720px;
