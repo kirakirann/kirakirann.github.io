@@ -61,6 +61,7 @@ a:hover {
 
 footer {
 	margin-top: 54px;
+	color: #dd0000;
 
 }
 
@@ -72,6 +73,8 @@ color: #dd0000;
 #copy-right {
 	color: #bbbbbb;
 }
+
+
 hr {
 	border: 0;
     height: 0;
