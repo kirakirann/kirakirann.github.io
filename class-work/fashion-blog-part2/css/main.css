@@ -1,0 +1,72 @@
+.container {
+	width: 1080px;
+	padding: 54px;
+	margin: auto;
+
+}
+
+header h1, header h2 {
+	display: inline-block;
+	margin: 0;
+}
+
+
+h1 {
+	color: #dd0000;
+    font-size: 54px;
+    font-weight: 300;
+  
+}
+
+h2 {
+	color: #888;
+    font-size: 27px;
+    font-weight: 300;
+  
+}
+
+h4 {
+	text-align: right;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+nav {
+	background: #000;
+	text-align: center;
+	font-size: 26px;
+}
+
+nav a {
+	color: #cccccc;
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px;
+
+}
+
+img {
+	width: 100%;
+}
+
+article p::first-letter {
+	font-size: 108px;
+    line-height: 1;
+    float: left;
+}
+
+section {
+	float: left;
+	width: 790px;
+}
+
+aside {
+	float: right;
+	width: 270px;
+}
+
+.clear {
+	clear: both;
+}
