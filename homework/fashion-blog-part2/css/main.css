@@ -9,7 +9,7 @@ body {
 	margin: auto;
 	font-family: 'Roboto', sans-serif;
 	font-weight: normal;
-	color: #ec2991;
+	color: #000;
 	background: #fff;
 
 }
@@ -21,17 +21,27 @@ header h1, header h2 {
 
 
 h2 {
-	color: #8ec3e9;
+	color: #000;
     font-size: 30px;
     font-weight: 300;
   
 }
 h2:hover {
+	color: #ec2991;
+}
+
+#frase {
+	color: #7e96c8;
+}
+
+
+#frase:hover {
 	color: #000;
 }
 
+
 h3 {
-	color: #cccccc;
+	color: #888;
 }
 
 h4 {
@@ -76,6 +86,7 @@ article p::first-letter {
 	font-size: 108px;
     line-height: 1;
     float: left;
+    color: #7e96c8;
 }
 
 section {
@@ -124,5 +135,5 @@ li a {
 }
 
 #copy-right {
-	color: #dddddd;
+	color: #7e96c8;
 }
