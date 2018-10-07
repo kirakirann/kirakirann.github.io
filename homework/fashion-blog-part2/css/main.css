@@ -7,8 +7,9 @@ body {
 	width: 1080px;
 	padding: 54px;
 	margin: auto;
-	font-family: "Lato", Helvetica, sans-serif;
-	color: #444444;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	color: #ec2991;
 	background: #fff;
 
 }
@@ -19,21 +20,14 @@ header h1, header h2 {
 }
 
 
-h1 {
-	color: #8ec3e9;
-    font-size: 54px;
-    font-weight: 300;
-  
-}
-
 h2 {
-	color: #888;
-    font-size: 27px;
+	color: #8ec3e9;
+    font-size: 30px;
     font-weight: 300;
   
 }
 h2:hover {
-	color: #8ec3e9;
+	color: #000;
 }
 
 h3 {
@@ -67,11 +61,11 @@ nav a {
 
 a {
 	text-decoration: none;
-	color: #f59092;
+	color: #ec2991;
 }
 
 a:hover {
-	color: #c8cbd2;
+	color: #000;
 }
 
 img {
@@ -101,12 +95,19 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.logo, h1 {
+	width: 250px;
+	margin-bottom: -9px;
+
+}
+
 .popular, ul, h5 {
 	color: #888;
 }
 
+
 li a {
-	color: #f59092;
+	color: #ec2991;
 	text-decoration: none;
 }
 
@@ -115,7 +116,7 @@ li a {
 }
 
 .footer, .nav-footer, footer a {
-	color: #f59092;
+	color: #ec2991;
 	font-size: 16px;
 	text-align: left;
 	padding: 10px 5px 10px 0;
