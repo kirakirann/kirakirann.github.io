@@ -30,15 +30,6 @@ h2:hover {
 	color: #ec2991;
 }
 
-#frase {
-	color: #7e96c8;
-}
-
-
-#frase:hover {
-	color: #000;
-}
-
 
 h3 {
 	color: #888;
@@ -80,6 +71,7 @@ a:hover {
 
 img {
 	width: 100%;
+	
 }
 
 article p::first-letter {
@@ -106,6 +98,11 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+li a {
+	color: #ec2991;
+	text-decoration: none;
+}
+
 .logo, h1 {
 	width: 250px;
 	margin-bottom: -9px;
@@ -116,11 +113,6 @@ hr {
 	color: #888;
 }
 
-
-li a {
-	color: #ec2991;
-	text-decoration: none;
-}
 
 .clear {
 	clear: both;
@@ -136,4 +128,13 @@ li a {
 
 #copy-right {
 	color: #7e96c8;
+}
+
+#frase {
+	color: #7e96c8;
+}
+
+
+#frase:hover {
+	color: #000;
 }
