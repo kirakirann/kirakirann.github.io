@@ -66,6 +66,9 @@ footer {
 	padding: 20px;
 }
 
+i {
+	color: red;
+}
 
 .banner {
 	background-image: url(../img/coworking.jpg);
@@ -85,6 +88,7 @@ footer {
 	margin: 0;
 	padding: 20px;
 	font-family: "Merriweather";
+	font-size: 20px;
 	text-align: center;
     background: #C6C6C6;
 	color: #000;
@@ -117,7 +121,7 @@ footer {
 	
 }
 
-#card1 {
+/*#card1 {
 	width: 25%;
 	float: right;
 	margin: 30px;
@@ -133,13 +137,22 @@ footer {
 	width: 25%;
 	float: right;
 	margin: 30px;
-}
+}*/
 
 
 .card {
 	float: left;
 	width: 30%;
 	padding: 20px;
+}
+
+#taste {
+	text-decoration: line-through;
+	color: #999;
+}
+
+#are {
+	border-bottom: 2px solid #ffff00;
 }
 
 /*
