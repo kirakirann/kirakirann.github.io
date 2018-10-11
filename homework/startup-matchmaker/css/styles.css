@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: "Source Sans Pro";
 	letter-spacing: 1px;
@@ -126,19 +130,75 @@ i {
 }
 
 
-.cards {
-	width: 30%;
-	float: left;
-	padding: 20px;
+.cards-container {
+	width: 100%;
+	margin: auto;
+	overflow: auto;
 }
 
-.cards-container {
-	overflow: auto;
+.cards {
+	width: calc(100%/3);
+	float: left;
+	padding: 20px;
 }
 
  #taste {
  	border-bottom: 2px solid #f5af59;
  }
+
  
 
 
+ /*@media screen and (min-width: 1024px) and (max-width: 1280px) {
+ 	.cards-container {
+ 		width: 100%
+ 	}
+
+ 	.cards {
+ 		width: 50%;
+ 		background: pink;
+ 	}
+
+ }
+
+
+ @media screen and (min-width: 768px) and (max-width: 1024px){
+ 	.cards-container {
+ 		width: 100%
+ 	}
+
+ 	.cards {
+ 		width: 80%;
+ 		background: blue;
+ 	}
+
+ 	.main-card {
+ 		width: 50%;
+ 		padding: 10px;
+ 	}
+
+ }
+
+
+
+ 
+ @media screen and (min-width: 480px) and (max-width: 768px) {
+ 	.cards-container {
+ 		width: 90%;
+ 		background: orange;
+ 		
+ 	}
+
+ 	.cards {
+ 		width: 100%;
+ 		float: none;
+ 	}
+
+ 	.main-card {
+ 		width: 90%;
+ 		padding: 10px;
+ 	}
+ }
+
+
+*/
