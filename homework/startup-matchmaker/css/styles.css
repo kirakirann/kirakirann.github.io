@@ -134,6 +134,7 @@ i {
 	width: 100%;
 	margin: auto;
 	overflow: auto;
+	transition: background 1.5s;
 }
 
 .cards {
@@ -147,9 +148,63 @@ i {
  }
 
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+	body {
+		font-size: 20px;
+	}
+
+	.banner {
+		width: 100%;
+	}
+
+	.main-card {
+		width: 100%;
+		margin: 20px 10px;
+		padding: 10px 20px;
+	}
+
+	.cards-container {
+		background: #fbebd7;
+	}
+
+	.cards {
+		width: 100%;
+		float: none;
+
+	}
+
+}
 
 
-@media (max-width: 1024px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	body {
+		font-size: 20px;
+	}
+
+	.banner {
+		width: 100%;
+	}
+
+	.main-card {
+		width: 50%;
+		margin: 20px 10px;
+		padding: 10px 20px;
+	}
+
+	.cards {
+		width: 50%;
+		
+
+	}
+
+}
+
+/*
+@media screen and (max-width: 1024px) {
+
+	body {
+		font-size: 20px;
+	}
 
 	.banner {
 		width: 100%;
@@ -171,7 +226,11 @@ i {
 
 
 
-@media (max-width: 768px) {
+@media screen and (max-width: 735px) {
+
+	body {
+		font-size: 20px;
+	}
 
 	.banner {
 		width: 100%;
@@ -183,11 +242,15 @@ i {
 		padding: 10px 20px;
 	}
 
+	.cards-container {
+		background: #fbebd7;
+	}
+
 	.cards {
 		width: 100%;
 		float: none;
 
 	}
 
-}
+}*/
 
