@@ -91,7 +91,7 @@ i {
 
 
 .nav-left, h1, .nav-right {
-	width: 33.3%;
+	width: calc(100%/3);
 	float: left;
 }
 
