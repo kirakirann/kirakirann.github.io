@@ -21,6 +21,14 @@ header {
 }
 
 
+nav {
+	display: flex;
+	padding: 20px;
+
+}
+
+
+
 h1 {
 	text-align: center;
 	font-family: "Merriweather";
@@ -35,6 +43,10 @@ h1 a {
 h1 a:hover {
 	color: rgba(245, 175, 89, .75);
 
+}
+
+h3 {
+	font-family: 'Merriweather', serif;
 }
 
 
@@ -92,7 +104,7 @@ i {
 
 .nav-left, h1, .nav-right {
 	width: calc(100%/3);
-	float: left;
+	
 }
 
 .nav-left {
@@ -113,144 +125,96 @@ i {
 }
 
 .banner {
-	overflow: auto;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 	background-image: url(../img/coffee.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;	
+	background-position: center;
+	padding: 40px 20px;	
 
 }
 
 .main-card {
 	width: 33.33%;
-	float: right;
 	background: rgba(255, 255, 255, .75);
-	margin: 80px 20px;
-	padding: 20px;
+	padding: 20px 40px;
 }
 
 
 .cards-container {
-	width: 100%;
-	margin: auto;
-	overflow: auto;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 	transition: background 1.5s;
+
 }
+
+
 
 .cards {
 	width: calc(100%/3);
-	float: left;
 	padding: 20px;
+
 }
+
+
 
  #taste {
  	border-bottom: 2px solid #f5af59;
  }
 
 
-/*@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+
+@media screen and (max-width: 768px) {
+
 	body {
+		margin: 0;
 		font-size: 20px;
 	}
 
+	nav {
+		display: block;
+	}
+
+	h1 a {
+		font-size: 30px;
+		text-align: center;
+	}
+
 	.banner {
-		width: 100%;
+		display: block;
+		padding: 20px;
 	}
 
 	.main-card {
 		width: 100%;
-		margin: 20px 10px;
-		padding: 10px 20px;
+		padding: 40px;
 	}
 
 	.cards-container {
-		background: #fbebd7;
+
+		display: block;
+		padding: 20px;
+
 	}
 
 	.cards {
-		width: 100%;
-		float: none;
 
+		width: 100%;
+		padding: 20px;
 	}
+
+	.nav-right, .nav-left {
+
+		display: none;
+	}
+
+
 
 }
 
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-	body {
-		font-size: 20px;
-	}
-
-	.banner {
-		width: 100%;
-	}
-
-	.main-card {
-		width: 50%;
-		margin: 20px 10px;
-		padding: 10px 20px;
-	}
-
-	.cards {
-		width: 50%;
-		
-
-	}
-
-}*/
-
-
-@media screen and (max-width: 1024px) {
-
-	body {
-		font-size: 20px;
-	}
-
-	.banner {
-		width: 100%;
-	}
-
-	.main-card {
-		width: 50%;
-		margin: 20px 10px;
-		padding: 10px 20px;
-	}
-
-	.cards {
-		width: 50%;
-		
-
-	}
-
-}
-
-
-
-@media screen and (max-width: 735px) {
-
-	body {
-		font-size: 20px;
-	}
-
-	.banner {
-		width: 100%;
-	}
-
-	.main-card {
-		width: 100%;
-		margin: 20px 10px;
-		padding: 10px 20px;
-	}
-
-	.cards-container {
-		background: #fbebd7;
-	}
-
-	.cards {
-		width: 100%;
-		float: none;
-
-	}
-
-}
 
