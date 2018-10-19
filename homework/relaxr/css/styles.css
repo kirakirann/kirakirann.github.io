@@ -1,0 +1,9 @@
+/* Box Model */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: red;
+}
