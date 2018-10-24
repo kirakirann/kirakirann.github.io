@@ -1,9 +1,100 @@
-/* Box Model */
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  background: red;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
 }
+
+header {
+  background: #033048;
+  padding: 25px;
+
+  
+}
+
+
+h1 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+h2, h3 {
+  color: #033048;
+}
+
+
+a {
+  text-decoration: none;
+  font-size: 28px;
+  color: #f9e42e;
+  padding: 10px;
+
+}
+
+footer {
+  text-align: center;
+  background: grey;
+  color: white;
+  padding: 40px;
+}
+
+
+button {
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 12px 0;
+  width: 280px;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+
+
+}
+
+
+.article p:first-of-type:first-letter {
+  float: left;
+  color: #033048;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.header-container {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.nav {
+  display: inline;
+}
+
+.article {
+  border-bottom: 1px solid #033048;
+  padding: 10px;
+}
+
+.sidebar {
+  padding: 10px;
+}
+
+
