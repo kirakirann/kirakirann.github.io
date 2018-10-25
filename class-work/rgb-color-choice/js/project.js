@@ -22,7 +22,6 @@ function changeColor() {
 
   document.querySelector('#wrapper').style.background = rgbValue
   document.querySelector('#color-button').style.color = rgbValue
-  document.querySelector('#color-button').innerHTML = 'love it!'
   document.querySelector('#colorful-text').innerHTML = rgbValue
 
 }
