@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	background: black;
+	text-align: center;
+	cursor: url('https://cdn.shopify.com/s/files/1/2406/8641/files/cursor.png?3654935153924255391');
+}
+
+
+h1 {
+	color: red;
+	cursor: pointer;
+	font-size: 80px;
+}
+
+p {
+	color: white;
+}
+
