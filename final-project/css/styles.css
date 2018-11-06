@@ -44,6 +44,7 @@ img {
 
 img:hover {
   transform: scale(1.05);
+  cursor: pointer;
 }
 
 
@@ -62,25 +63,31 @@ img:hover {
 	padding: 60px;
 	margin: 0;
 
-
-
 }
 
 .article h2 {
 	color: black;
 }
 
-.jesus {
-	padding: 60px;
-	margin: 0;
+.black-box {
 	background-color: black;
+	display: block;
    
 }
 
 
-
-.jesus p {
+.black-box p, .black-box h2 {
 	color: white;
 	
 }
 
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.para {
+	width: 50%;
+	padding: 20px;
+}
