@@ -4,19 +4,83 @@
 
 body{
 	margin: 0;
-	background: black;
 	text-align: center;
-	cursor: url('https://cdn.shopify.com/s/files/1/2406/8641/files/cursor.png?3654935153924255391');
+	line-height: 1.5;
+	background-image: url('https://d9nqqwcssctr8.cloudfront.net/wp-content/uploads/2014/11/23230826/JESUS-3-JUNE-2016.png');
+	
+}
+
+header {
+	margin: 60px;
+
 }
 
 
 h1 {
-	color: red;
+	color: pink;
 	cursor: pointer;
 	font-size: 80px;
 }
 
-p {
+h2 {
+	font-size: 40px;
+}
+
+
+h2, h3 {
 	color: white;
+
+}
+
+
+p {
+	font-size: 20px;
+}
+
+
+img {
+    transition: all .4s;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+
+#devotion #john {
+	color: white;
+	font-size: 36px;
+	font-weight: bold;
+	padding: 20px;
+	text-shadow: 2px 2px #000;
+	
+}
+
+
+.article {
+	background-color: white;
+	padding: 60px;
+	margin: 0;
+
+
+
+}
+
+.article h2 {
+	color: black;
+}
+
+.jesus {
+	padding: 60px;
+	margin: 0;
+	background-color: black;
+   
+}
+
+
+
+.jesus p {
+	color: white;
+	
 }
 
