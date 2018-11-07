@@ -8,13 +8,18 @@ body{
 	text-align: center;
 	line-height: 1.5;
 	font-family: 'Lato', sans-serif;
-	background-image: url('https://d9nqqwcssctr8.cloudfront.net/wp-content/uploads/2014/11/23230826/JESUS-3-JUNE-2016.png');
 	
 }
 
 header {
-	margin: 60px;
+	margin: 0;
+	background-image: url('https://d9nqqwcssctr8.cloudfront.net/wp-content/uploads/2014/11/23230826/JESUS-3-JUNE-2016.png');
+	background-repeat: no-repeat;
 
+}
+
+nav {
+	padding-top: 20px;
 }
 
 
@@ -27,7 +32,6 @@ h2 {
 h2, h3 {
 	color: white;
 
-
 }
 
 
@@ -37,8 +41,9 @@ p {
 }
 
 
+
 img {
-	margin-top: 90px;
+	margin: 90px;
     transition: all .4s;
 }
 
@@ -60,6 +65,7 @@ a {
 a:hover {
 	color: #bb86a9;
 }
+
 
 
 #devotion {
@@ -109,4 +115,14 @@ a:hover {
 .para {
 	width: 50%;
 	padding: 20px;
+}
+
+
+.section {
+  opacity: 0;
+  transition: opacity 3.5s;
+}
+
+.section.visible { 
+  opacity: 1;
 }
