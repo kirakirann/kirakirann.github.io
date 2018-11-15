@@ -28,9 +28,14 @@ $('#clickme').click(handleClick)
 function handleClick() {
   var newItem = $('#item').val()
   $('#list').append('<li>' + newItem + '</li>')
+  $('#item').focus()
+  $('#item').val('')
 }
 
-function appendItem(item) {
-  newItem = $('#item').empty()
+//remove list items
+$(document).on('click', 'li', handleRemove)
+
+function handleRemove() {
+  $('this').remove()
 }
 
