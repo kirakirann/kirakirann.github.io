@@ -1,0 +1,20 @@
+/* --- FONTS ---
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	color: #ec2991;
+	font-family: 'Roboto Slab', serif;
+}
