@@ -10,11 +10,17 @@ font-family: 'Roboto Slab', serif;
 }
 
 body {
-	text-align: center;
+	background-image: linear-gradient(90deg, #b88cbe, #e89cbd, #f59092);
 	font-family: 'Roboto', sans-serif;
+	text-align: center;
 }
 
 h1 {
-	color: #ec2991;
 	font-family: 'Roboto Slab', serif;
+}
+
+.main {
+	background-color: #fff;
+	margin: 20px;
+	padding: 20px;
 }
