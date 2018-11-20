@@ -157,6 +157,10 @@ button {
 	grid-row: 3/5;
 }
 
+#logo {
+	padding: 60px;
+}
+
 /*---FOOTER BEGINS HERE---*/
 
 .footer {
