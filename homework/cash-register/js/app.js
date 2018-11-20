@@ -20,14 +20,18 @@ var total = 0
 
 $('#entry').submit(handleSubmit)
 
+//handle the submit event with the following function
 function handleSubmit(event) {
+
+  //prevents submit's default behavior
   event.preventDefault()
+
   var newEntry = $('#newEntry').val()
   newEntry = parseFloat(newEntry)
   $('#entries').append('<div>' + newEntry.toFixed(2) + '</div>')
 
   total = total + newEntry
-  $('#total').html(total.toFixed(2))
+  $('#total').html('$' + total.toFixed(2))
   $('#newEntry').val('')
 
 }
