@@ -1,3 +1,7 @@
+
+/*THIS LAYOUT IS A STILL JUST A TEST, I WILL RE-DESIGN IT ONCE I DECIDE FOR A CONCEPT*/
+
+
 /* --- FONTS ---
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Slab', serif;
@@ -10,10 +14,6 @@ font-family: 'Roboto Slab', serif;
 	margin: 0;
 }
 
-html, body {
-	height: 100%;
-}
-
 body {
 	background-image: linear-gradient(90deg, #b88cbe, #e89cbd, #f59092);
 	font-family: 'Roboto', sans-serif;
@@ -22,7 +22,7 @@ body {
 }
 
 h1 {
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: normal;
 
 }
@@ -144,8 +144,11 @@ button {
 }
 
 .section {
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: repeat(2, 1fr);
 	background-color: white;
-	padding: 50px 200px 150px 200px;
+	padding: 50px;
 }
 
 .gallery {
@@ -186,6 +189,8 @@ button {
 	margin: 20px;
 }
 
+/*---MEDIA QUERY BEGINS HERE---*/
+
 @media screen and (max-width: 768px) {
 
 	h1, h2 {
@@ -217,21 +222,8 @@ button {
 		display: none;
 	}
 
-	#logo {
-		float: left;
-		padding: 20px;
-	}
-
-	#menu-icon {
-		float: right;
-		display: block;        
-    }
-
-    #dropdown {
-    	clear: both;
-    }
-
 	.section {
+		display: block;
 		padding: 60px;
 	}
 
@@ -252,6 +244,20 @@ button {
 	.footer {
 		margin: 0;
 	}
+
+	#logo {
+		float: left;
+		padding: 20px;
+	}
+
+	#menu-icon {
+		float: right;
+		display: block;        
+    }
+
+    #dropdown {
+    	clear: both;
+    }
 
 }
 
