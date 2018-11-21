@@ -56,12 +56,10 @@ img {
 	
 }
 
-
 p {
 	color: #ec2991;
 	font-size: 25px;
 }
-
 
 input {
 	width: 400px;
@@ -82,7 +80,7 @@ button {
 	margin: 20px;
 	display: grid;
 	height: 100%;
-	grid-template-rows: 100px auto auto auto 300px;
+	grid-template-rows: auto auto auto auto 300px;
 	grid-gap: 20px;
 	grid-template-areas: 
 	"hhh"
@@ -91,14 +89,6 @@ button {
 	"ggg"
 	"fff";
 }
-
-
-/*.big-text p {
-	font-size: 40px;
-	color: black;
-	margin: 20px;
-	padding: 20px;
-}*/
 
 /*---HEADER LAYOUT BEGINS HERE---*/
 
@@ -113,8 +103,40 @@ button {
 	width: 33%;
 }
 
-/*---CONTENT LAYOUT BEGINS HERE---*/
+#logo {
+	padding: 20px;
 
+}
+
+#dropdown {
+	background-color: white;
+	display: none;
+	margin-top: 150px;
+}
+
+#dropdown a {
+	border-bottom: 1px solid #e89cbd;
+	display: block;
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#dropdown a:hover {
+	color: #e89cbd;
+}
+
+#menu-icon {
+	display: none;
+	margin: 20px;
+	height: 50px;
+	width: 50px;
+}
+
+/*---CONTENT LAYOUT BEGINS HERE---*/
 
 .banner {
 	padding: 10px;
@@ -125,7 +147,6 @@ button {
 	background-color: white;
 	padding: 50px 200px 150px 200px;
 }
-
 
 .gallery {
 	padding: 40px;
@@ -157,10 +178,6 @@ button {
 	grid-row: 3/5;
 }
 
-#logo {
-	padding: 60px;
-}
-
 /*---FOOTER BEGINS HERE---*/
 
 .footer {
@@ -169,19 +186,14 @@ button {
 	margin: 20px;
 }
 
-
 @media screen and (max-width: 768px) {
 
-	h1 {
-		font-size: 30px;
-	}
-
-	p {
+	h1, h2 {
 		font-size: 25px;
 	}
 
-	.big-text {
-		font-size: 30px;
+	p {
+		font-size: 20px;
 	}
 
 	.container {
@@ -189,17 +201,53 @@ button {
 		margin: 0;
 	}
 
+	.header {
+		display: block;
+	}
 
-	.section {
+	.nav-logo {
+		width: 50%;
+	}
+
+	.nav-left, .nav-right {
+		display: none;
+	}
+
+	.banner {
+		display: none;
+	}
+
+	#logo {
+		float: left;
 		padding: 20px;
 	}
 
+	#menu-icon {
+		float: right;
+		display: block;        
+    }
+
+    #dropdown {
+    	clear: both;
+    }
+
+	.section {
+		padding: 60px;
+	}
 
 	.gallery {
 		display: block;
-		margin: 20px;
+		margin: 0;
 		padding: 20px;
 	}
+
+	.gallery img {
+	    border: 5px solid white;
+    }
+
+    .gallery img:hover {
+      transform: none;
+    }
 
 	.footer {
 		margin: 0;
