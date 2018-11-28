@@ -111,16 +111,15 @@ button {
 #dropdown {
 	background-color: white;
 	display: none;
-	margin-top: 150px;
 }
 
 #dropdown a {
-	border-bottom: 1px solid #e89cbd;
+	border-top: 1px solid #e89cbd;
 	display: block;
 	color: black;
 	font-size: 16px;
 	font-weight: bold;
-	text-align: center;
+	text-align: left;
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -147,6 +146,7 @@ button {
 	display: grid;
 	grid-gap: 50px;
 	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
 	background-color: white;
 	padding: 50px;
 }
