@@ -36,6 +36,6 @@ function handleClick() {
 $(document).on('click', 'li', handleRemove)
 
 function handleRemove() {
-  $('this').remove()
+  $(this).remove()
 }
 
