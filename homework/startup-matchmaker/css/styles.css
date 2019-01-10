@@ -7,7 +7,6 @@ body {
 	letter-spacing: 1px;
 }
 
-
 body, h1 {
 	margin: 0;
 }
@@ -20,35 +19,28 @@ header {
 	border-bottom: 2px solid #f5af59;
 }
 
-
 nav {
 	display: flex;
 	padding: 20px;
 
 }
 
-
-
 h1 {
 	text-align: center;
 	font-family: "Merriweather";
 }
 
-
 h1 a {
 	color: #f5af59;
 }
 
-
 h1 a:hover {
 	color: rgba(245, 175, 89, .75);
-
 }
 
 h3 {
 	font-family: 'Merriweather', serif;
 }
-
 
 a {
 	color: white;
@@ -60,7 +52,6 @@ a {
 a:hover {
 	color: rgba(255, 255, 255, .75);
 }
-
 
 button {
   background: #C6C6C6;
@@ -75,7 +66,6 @@ button {
   text-transform: uppercase;
   width: 100%;
 }
-
 
 footer {
 	background: #000;
@@ -101,10 +91,8 @@ i {
   width: 100%;
 }
 
-
 .nav-left, h1, .nav-right {
-	width: calc(100%/3);
-	
+	width: calc(100%/3);	
 }
 
 .nav-left {
@@ -133,7 +121,6 @@ i {
 	background-repeat: no-repeat;
 	background-position: center;
 	padding: 40px 20px;	
-
 }
 
 .main-card {
@@ -142,25 +129,18 @@ i {
 	padding: 20px 40px;
 }
 
-
 .cards-container {
 
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	transition: background 1.5s;
-
 }
-
-
 
 .cards {
 	width: calc(100%/3);
 	padding: 20px;
-
 }
-
-
 
  #taste {
  	border-bottom: 2px solid #f5af59;
@@ -198,7 +178,6 @@ i {
 
 		display: block;
 		padding: 20px;
-
 	}
 
 	.cards {
@@ -211,8 +190,6 @@ i {
 
 		display: none;
 	}
-
-
 
 }
 

@@ -1,0 +1,87 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #f36b6e;
+}
+
+h2 {
+	text-align: center;
+	font-size: 25px;
+	color: #f59092;
+	padding: 20px;
+}
+
+p {
+	text-align: justify;
+	font-size: 20px;
+	padding: 20px;
+}
+
+img {
+	display: block;
+	border-radius: 40px;
+	width: 250px;
+	margin: 0 auto;
+	opacity: 0.5;
+}
+
+img:hover {
+	opacity: 1;
+}
+
+h2:hover {
+	color: #f36b6e;
+	cursor: pointer;
+}
+
+button {
+  background: #C6C6C6;
+  border-radius: 5px;
+  box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+  font-family: "Oswald";
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding: 10px;
+  display: block;
+  text-transform: uppercase;
+  width: 50%;
+}
+
+footer {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 100px auto auto;
+	grid-gap: 60px;
+	background-color: #fff;
+	height: 350px;
+}
+
+.contact {
+	text-align: center;
+}
+
+
+.container {
+	display: grid;
+	grid-gap: 60px;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: auto auto;
+	margin: 80px;
+}
+
+.card {
+	/*border: 2px solid black;*/
+	border-radius: 40px;
+	background-color: white;
+}
