@@ -165,6 +165,11 @@ header .header-btn .orange-btn {
   -moz-box-shadow: 3px 3px 15px -4px rgba(0,0,0,0.75);
   box-shadow: 3px 3px 15px -4px rgba(0,0,0,0.75);
 }
+.box-shadow-center {
+  -webkit-box-shadow: 0px 0px 15px -4px rgba(206, 206, 206,0.75);
+  -moz-box-shadow: 0px 0px 15px -4px rgba(206, 206, 206,0.75);
+  box-shadow: 0px 0px 15px -4px rgba(206, 206, 206,0.75);
+}
 .info-section .container {
   position: relative;
   z-index: 2;
@@ -224,8 +229,44 @@ header .header-btn .orange-btn {
   display: inline-block;
 }
 .info-section .container .container-fluid .icons-box-right {
-  padding: 40px;
   width: 60%;
   display:inline-block;
   float: left;
+}
+.info-section .container .container-fluid .icons-box-right .refresh-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #fff;
+  display:inline-block;
+  float: left;
+  position: absolute;
+  top: 38%;
+  left: 66%;
+}
+.info-section .container .container-fluid .icons-box-right .refresh-circle .fas {
+  position: relative;
+  top: 25px;
+  left: 23px;
+  font-size: 2rem;
+  color: #F2C53D;
+  background: #fff;
+
+}
+.info-section .container .container-fluid .icons-box-right .info-icons {
+  width: 50%;
+  height: 175px;
+  display:inline-block;
+  float: left;
+  border: 1px solid #f4f4f4;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #337AA6;
+}
+.info-section .container .container-fluid .icons-box-right .info-icons .fas {
+  margin-bottom: 10px;
+  font-size: 2rem;
 }
