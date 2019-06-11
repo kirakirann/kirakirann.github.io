@@ -90,7 +90,9 @@ header .header-btn .orange-btn {
   width: 40%;
   display:inline-block;
   float: left;
-  padding-left: 40px;
+  padding: 20px;
+  position: relative;
+  right: -80px;
 }
 .top-jumbo .container .left-side .bg-text .ps-text {
   font-size: 250px;
