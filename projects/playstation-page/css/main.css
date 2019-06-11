@@ -79,7 +79,7 @@ header .header-btn .orange-btn {
   clear: both;
 }
 .top-jumbo .container .right-side {
-  width: 50%;
+  width: 60%;
   display:inline-block;
   float: left;
   position: relative;
@@ -87,10 +87,10 @@ header .header-btn .orange-btn {
   z-index: 1;
 }
 .top-jumbo .container .left-side {
-  width: 50%;
+  width: 40%;
   display:inline-block;
   float: left;
-  padding: 20px 60px;
+  padding-left: 40px;
 }
 .top-jumbo .container .left-side .bg-text .ps-text {
   font-size: 250px;
@@ -105,7 +105,6 @@ header .header-btn .orange-btn {
 .top-jumbo .container .right-side img {
   width: 100%;
   position: relative;
-  right: -40px;
   top: 50px;
 }
 .top-jumbo .container .left-side h1 {
