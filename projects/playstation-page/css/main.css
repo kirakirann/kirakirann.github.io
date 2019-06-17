@@ -107,6 +107,7 @@ header .header-btn .orange-btn {
   width: 100%;
   position: relative;
   top: 50px;
+  right: -50px;
 }
 .top-jumbo .container .left-side h1 {
   font-size: 2rem;
