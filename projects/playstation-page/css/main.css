@@ -403,6 +403,9 @@ header .header-btn .orange-btn {
   bottom: 9px;
   left: 8px;
 }
+.games-gallery {
+  background: #fff;
+}
 .games-gallery .gallery-info {
   text-align: center;
   color: #337AA6;
@@ -427,8 +430,17 @@ header .header-btn .orange-btn {
   font-weight: 100;
   line-height: 1.5;
 }
+.games-gallery .game-bg-image .steps-left .step-1 {
+  width: 1008px;
+  height: 50px;
+  background: #fff;
+}
+.games-gallery .game-bg-image .steps-left .step-2 {
+  width: 288px;
+  height: 50px;
+  background: #fff;
+}
 .games-gallery .game-bg-image {
-  margin-top: 10px;
   height:680px;
   background: url('../img/sc1.jpg') no-repeat center center;
   -webkit-background-size: cover;
@@ -501,6 +513,20 @@ header .header-btn .orange-btn {
   font-weight: 600;
   text-transform: uppercase;
   color: #36BF98;
+}
+.games-gallery .game-bg-image-3 .steps-right {
+  position: relative;
+  top: 581px;
+}
+.games-gallery .game-bg-image-3 .steps-right .step-1 {
+  width: 288px;
+  height: 50px;
+  background: #fff;
+}
+.games-gallery .game-bg-image-3 .steps-right .step-2 {
+  width: 1008px;
+  height: 50px;
+  background: #fff;
 }
 .games-gallery .game-bg-image-3 {
   margin-top: 10px;
