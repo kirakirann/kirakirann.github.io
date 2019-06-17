@@ -107,7 +107,6 @@ header .header-btn .orange-btn {
   width: 100%;
   position: relative;
   top: 50px;
-  right: -50px;
 }
 .top-jumbo .container .left-side h1 {
   font-size: 2rem;
@@ -272,7 +271,7 @@ header .header-btn .orange-btn {
 }
 .info-section-2 .container {
   padding: 20px;
-  margin-top: 130px;
+  margin: 130px 0;
 }
 .info-section-2 .container:after {
   content: "";
@@ -406,7 +405,6 @@ header .header-btn .orange-btn {
 }
 .games-gallery .gallery-info {
   text-align: center;
-  margin-top: 130px;
   color: #337AA6;
   background: #fff;
   padding: 100px 150px;
@@ -416,6 +414,13 @@ header .header-btn .orange-btn {
   font-weight: 600;
   text-transform: capitalize;
   margin-bottom: 40px;
+  line-height: 1.5;
+}
+.games-gallery .gallery-info h2 span {
+  font-size: 1rem;
+  font-weight: 100;
+  display: block;
+  color: #F2C53D;
 }
 .games-gallery .gallery-info p {
   font-size: 1.3rem;
@@ -492,6 +497,41 @@ header .header-btn .orange-btn {
   margin-bottom: 20px;
 }
 .games-gallery .game-bg-image-2 .games-info a {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #36BF98;
+}
+.games-gallery .game-bg-image-3 {
+  margin-top: 10px;
+  height:680px;
+  background: url('https://vignette.wikia.nocookie.net/tekken/images/2/24/Hwoarang-stage.png/revision/latest?cb=20130818042616&path-prefix=en') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.games-gallery .game-bg-image-3 .games-info {
+  width: 40%;
+  padding: 50px;
+  background: #0D0D0D;
+  opacity: .7;
+  color: #fff;
+  margin: 50px 50px 0 0;
+  float: right;
+}
+.games-gallery .game-bg-image-3 .games-info h3 {
+  font-size: 1.8rem;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.games-gallery .game-bg-image-3 .games-info p {
+  font-size: 1.2rem;
+  font-weight: 100;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.games-gallery .game-bg-image-3 .games-info a {
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
