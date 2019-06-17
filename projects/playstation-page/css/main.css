@@ -404,3 +404,92 @@ header .header-btn .orange-btn {
   bottom: 9px;
   left: 8px;
 }
+.games-gallery .container .gallery-info {
+  text-align: center;
+  margin-top: 130px;
+  color: #fff;
+}
+.games-gallery .container .gallery-info h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+.games-gallery .container .gallery-info p {
+  font-size: 1.3rem;
+  font-weight: 100;
+  line-height: 1.5;
+}
+.games-gallery .game-bg-image {
+  margin-top: 100px;
+  height:680px;
+  background: url('../img/sc1.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.games-gallery .game-bg-image:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.games-gallery .game-bg-image .games-info {
+  width: 40%;
+  float: right;
+  padding: 50px;
+  background: #0D0D0D;
+  opacity: .8;
+  color: #fff;
+  margin: 50px 50px 0 0;
+}
+.games-gallery .game-bg-image .games-info h3 {
+  font-size: 1.8rem;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.games-gallery .game-bg-image .games-info p {
+  font-size: 1.2rem;
+  font-weight: 100;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.games-gallery .game-bg-image .games-info a {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+.games-gallery .game-bg-image-2 {
+  margin-top: 10px;
+  height:680px;
+  background: url('http://assets2.ignimgs.com/2014/10/14/castlevania-symphony-of-the-night2jpg-d28f72_1280w.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.games-gallery .game-bg-image-2 .games-info {
+  width: 40%;
+  padding: 50px;
+  background: #0D0D0D;
+  opacity: .7;
+  color: #fff;
+  margin: 50px 0 0 50px;
+  float: left;
+}
+.games-gallery .game-bg-image-2 .games-info h3 {
+  font-size: 1.8rem;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.games-gallery .game-bg-image-2 .games-info p {
+  font-size: 1.2rem;
+  font-weight: 100;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.games-gallery .game-bg-image-2 .games-info a {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #fff;
+}
