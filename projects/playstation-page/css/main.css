@@ -848,7 +848,7 @@ footer .social-media li {
   } */
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 767px) {
   .top-jumbo .container .left-side {
     width: 100%;
     text-align: center;
@@ -881,6 +881,43 @@ footer .social-media li {
   .top-jumbo .container .right-side img {
     top: 0;
     left: 29px;
+  }
+
+ .info-section .container .container-fluid .info-box-left {
+    width: 100%;
+    display: block;
+  }
+  .info-section .container .container-fluid .icons-box-right {
+    width: 100%;
+    display: block;
+  }
+  .info-section .container .container-fluid .icons-box-right .refresh-circle {
+    top: 69%;
+    left: 45%;
+  }
+  .info-section-2 .container .left-side {
+    width: 100%;
+    display: block;
+  }
+  .info-section-2 .container .right-side {
+    width: 100%;
+    margin-top: 150px;
+    display: inline-block;
+    float: left;
+  }
+  .games-gallery .game-bg-image .steps-left .step-1 {
+    display: none;
+  }
+  .games-gallery .game-bg-image-3 .steps-right .step-1 {
+    position: relative;
+    top: 50px;
+  }
+  .games-gallery .game-bg-image-3 .steps-right .step-2 {
+    display: none;
+  }
+
+  footer .steps-left .step-1 {
+    display: none;
   }
 
 }
