@@ -807,3 +807,80 @@ footer .social-media li {
   color: #fff;
   font-size: 1.5rem;
 }
+
+
+@media only screen and (max-width: 1215px) {
+
+}
+
+@media only screen and (max-width: 1023px) {
+  .top-jumbo .container .left-side {
+    width: 50%;
+  }
+  .top-jumbo .container .left-side .bg-text .ps-text {
+    font-size: 200px;
+    left: -7px;
+  }
+  .top-jumbo .container .left-side h1 {
+    font-size: 1.6rem;
+  }
+  .top-jumbo .container .left-side p {
+    font-size: 1rem;
+  }
+  .top-jumbo .container .left-side form {
+    width: 100%;
+  }
+  .top-jumbo .container .left-side form .far {
+    margin-left: 0;
+  }
+  .top-jumbo .container .left-side form input {
+    width: 60%;
+  }
+  .top-jumbo .container .left-side form button {
+    width: 30%;
+  }
+  .top-jumbo .container .right-side {
+    width: 50%;
+  }
+  .top-jumbo .container .right-side img {
+    top: 44px;
+    left: 29px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .top-jumbo .container .left-side {
+    width: 100%;
+    text-align: center;
+  }
+  .top-jumbo .container .left-side .bg-text .ps-text {
+    font-size: 200px;
+    left: -7px;
+  }
+  .top-jumbo .container .left-side h1 {
+    font-size: 1.6rem;
+  }
+  .top-jumbo .container .left-side p {
+    font-size: 1rem;
+  }
+  .top-jumbo .container .left-side form {
+    width: 100%;
+  }
+  .top-jumbo .container .left-side form .far {
+    margin-left: 0;
+  }
+  .top-jumbo .container .left-side form input {
+    width: 60%;
+  }
+  .top-jumbo .container .left-side form button {
+    width: 30%;
+  }
+  .top-jumbo .container .right-side {
+    width: 100%;
+  }
+  .top-jumbo .container .right-side img {
+    top: 0;
+    left: 29px;
+  }
+
+}
