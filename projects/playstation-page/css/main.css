@@ -661,3 +661,95 @@ header .header-btn .orange-btn {
   top: 21px;
   left: 1px;
 }
+.latest-area .body .column .line {
+  width: 100px;
+  height: 2px;
+  background: #36BF98;
+  margin: 40px auto;
+}
+.latest-area .body .column .price {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #F2C53D;
+}
+.latest-area .footer h2 {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 3rem;
+  color: #337AA6;
+  padding: 50px 0;
+}
+.latest-area .footer form {
+  padding: 50px;
+  width: 100%;
+  display: inline-block;
+  margin: 0 auto;
+}
+.latest-area .footer form:after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.latest-area .footer form .name-input {
+  width: 48%;
+  float: left;
+  border-radius: 35px;
+  padding: 10px;
+}
+.latest-area .footer form .name-input input {
+  border: none;
+  color: #36BF98;
+  font-size: 15px;
+  padding: 10px;
+  width: 80%;
+}
+.latest-area .footer form .name-input input::placeholder {
+  color: #36BF98;
+  font-size: 15px;
+}
+.latest-area .footer form .name-input input:focus {
+  outline: none;
+}
+.latest-area .footer form .email-input {
+  width: 48%;
+  float: right;
+  border-radius: 35px;
+  padding: 10px;
+}
+.latest-area .footer form .email-input input {
+  border: none;
+  color: #36BF98;
+  font-size: 15px;
+  padding: 10px;
+  width: 78%;
+}
+.latest-area .footer form .email-input button {
+  text-transform: uppercase;
+  border-radius: 50px;
+  color: #FFF;
+  background: #36BF98;
+  padding: 10px 20px;
+  border: none;
+}
+.latest-area .footer form .email-input input::placeholder {
+  color: #36BF98;
+  font-size: 15px;
+}
+.latest-area .footer form .email-input input:focus {
+  outline: none;
+}
+.latest-area .footer form .far {
+   color: #36BF98;
+   margin-left: 5px;
+   font-size: 20px;
+   position: relative;
+   top: 4px;
+}
+.latest-area .footer form .fas {
+   color: #36BF98;
+   margin-left: 5px;
+   font-size: 20px;
+   position: relative;
+   top: 4px;
+}
