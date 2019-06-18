@@ -814,7 +814,7 @@ footer .social-media li {
 }
 
 @media only screen and (max-width: 1023px) {
-  .top-jumbo .container .left-side {
+  /* .top-jumbo .container .left-side {
     width: 50%;
   }
   .top-jumbo .container .left-side .bg-text .ps-text {
@@ -845,10 +845,10 @@ footer .social-media li {
   .top-jumbo .container .right-side img {
     top: 44px;
     left: 29px;
-  }
+  } */
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1023px) {
   .top-jumbo .container .left-side {
     width: 100%;
     text-align: center;
