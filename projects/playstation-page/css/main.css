@@ -849,6 +849,14 @@ footer .social-media li {
 }
 
 @media only screen and (max-width: 767px) {
+  header .header-btn {
+    display: block;
+    width: 100%;
+    margin: 25px auto;
+  }
+  .container {
+    max-width: 100%;
+  }
   .top-jumbo .container .left-side {
     width: 100%;
     text-align: center;
@@ -880,7 +888,8 @@ footer .social-media li {
   }
   .top-jumbo .container .right-side img {
     top: 0;
-    left: 29px;
+    left: 91px;
+    width: 80%;
   }
 
  .info-section .container .container-fluid .info-box-left {
@@ -905,19 +914,58 @@ footer .social-media li {
     display: inline-block;
     float: left;
   }
+  .games-gallery .gallery-info {
+    padding: 100px 50px;
+  }
   .games-gallery .game-bg-image .steps-left .step-1 {
     display: none;
+  }
+  .games-gallery .game-bg-image .steps-left .step-2 {
+    width: 388px;
   }
   .games-gallery .game-bg-image-3 .steps-right .step-1 {
     position: relative;
     top: 50px;
+    width: 388px;
   }
   .games-gallery .game-bg-image-3 .steps-right .step-2 {
     display: none;
   }
-
+  .latest-area {
+    padding: 0 50px;
+  }
+  .latest-area .head {
+    width: 100%;
+  }
+  .latest-area .body .column {
+    width: 100%;
+    display: block;
+  }
+  .latest-area .body .column .price {
+    margin-bottom: 50px;
+  }
+  .latest-area .footer h2 {
+    font-size: 2rem;
+  }
+  .latest-area .footer form {
+    padding: 0;
+    width: 100%;
+    display: block;
+  }
+  .latest-area .footer form .name-input {
+    width: 30%;
+  }
+  .latest-area .footer form .email-input {
+    width: 68%;
+  }
+  .latest-area .footer form .email-input button {
+    padding: 10px 15px;
+  }
   footer .steps-left .step-1 {
     display: none;
+  }
+  footer .steps-left .step-2 {
+    width: 388px;
   }
 
 }
