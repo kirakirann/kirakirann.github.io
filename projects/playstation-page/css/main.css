@@ -743,6 +743,9 @@ header .header-btn .orange-btn {
 .latest-area .footer form .email-input input:focus {
   outline: none;
 }
+.latest-area .footer form .email-input button:focus {
+  outline: none;
+}
 .latest-area .footer form .far {
    color: #36BF98;
    margin-left: 5px;
