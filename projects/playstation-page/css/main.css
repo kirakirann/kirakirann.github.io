@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -449,6 +448,8 @@ header .header-btn .orange-btn {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(447deg, #337AA6,#36BF98,#F2C53D,#D92525)1;
 }
 .games-gallery .game-bg-image:after {
   content: "";
@@ -482,13 +483,14 @@ header .header-btn .orange-btn {
   color: #36BF98;
 }
 .games-gallery .game-bg-image-2 {
-  margin-top: 3px;
   height:680px;
   background: url('http://assets2.ignimgs.com/2014/10/14/castlevania-symphony-of-the-night2jpg-d28f72_1280w.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(447deg, #337AA6,#36BF98,#F2C53D,#D92525)1;
 }
 .games-gallery .game-bg-image-2 .games-info {
   width: 40%;
@@ -531,7 +533,6 @@ header .header-btn .orange-btn {
   background: #fff;
 }
 .games-gallery .game-bg-image-3 {
-  margin-top: 3px;
   height:680px;
   background: url('https://vignette.wikia.nocookie.net/tekken/images/2/24/Hwoarang-stage.png/revision/latest?cb=20130818042616&path-prefix=en') no-repeat center center;
   -webkit-background-size: cover;
