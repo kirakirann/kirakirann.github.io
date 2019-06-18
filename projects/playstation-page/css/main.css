@@ -673,6 +673,9 @@ header .header-btn .orange-btn {
   font-weight: 600;
   color: #F2C53D;
 }
+.latest-area .footer {
+  padding-bottom: 80px;
+}
 .latest-area .footer h2 {
   text-align: center;
   text-transform: capitalize;
@@ -753,4 +756,51 @@ header .header-btn .orange-btn {
    font-size: 20px;
    position: relative;
    top: 4px;
+}
+footer {
+  text-align: center;
+  padding-bottom: 100px;
+}
+footer h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.6rem;
+  color: #fff;
+  padding: 40px;
+  font-weight: 300;
+}
+footer h2 span {
+  color: #F2C53D;
+  font-weight: 600;
+}
+footer .steps-left .step-1 {
+  width: 1008px;
+  height: 50px;
+  background: #fff;
+}
+footer .steps-left .step-2 {
+  width: 288px;
+  height: 50px;
+  background: #fff;
+}
+footer .menu li {
+  display: inline-block;
+}
+footer .menu li a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 20px;
+}
+footer p {
+  color: #fff;
+  margin: 20px;
+  font-weight: 300;
+}
+footer .social-media li {
+  display: inline-block;
+  margin: 20px;
+  color: #fff;
+  font-size: 1.5rem;
 }
