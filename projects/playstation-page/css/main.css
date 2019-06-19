@@ -383,24 +383,16 @@ header .header-btn .orange-btn {
   height: 400px;
   border-radius: 30px;
   margin-right: 80%;
+  position: relative;
   background-image: linear-gradient(60deg,#337AA6,#36BF98,#F2C53D,#D92525);
 }
 .info-section-2 .container .right-side .col-2 .color-selector {
   width: 35px;
   height: 35px;
-  background: #fff;
+  border: 10px solid #fff;
   border-radius: 50%;
   position: relative;
   bottom: -50px;
-}
-.info-section-2 .container .right-side .col-2 .color-selector .color-sel-orange {
-  width: 17.5px;
-  height: 17.5px;
-  background: #f0985d;
-  border-radius: 50%;
-  position: absolute;
-  bottom: 9px;
-  left: 8px;
 }
 .games-gallery {
   background: #fff;
@@ -808,51 +800,22 @@ footer .social-media li {
   font-size: 1.5rem;
 }
 
-
-@media only screen and (max-width: 1215px) {
-
-}
-
 @media only screen and (max-width: 1023px) {
-  /* .top-jumbo .container .left-side {
-    width: 50%;
-  }
-  .top-jumbo .container .left-side .bg-text .ps-text {
-    font-size: 200px;
-    left: -7px;
-  }
-  .top-jumbo .container .left-side h1 {
-    font-size: 1.6rem;
-  }
-  .top-jumbo .container .left-side p {
-    font-size: 1rem;
-  }
-  .top-jumbo .container .left-side form {
-    width: 100%;
-  }
-  .top-jumbo .container .left-side form .far {
-    margin-left: 0;
-  }
-  .top-jumbo .container .left-side form input {
-    width: 60%;
-  }
-  .top-jumbo .container .left-side form button {
-    width: 30%;
-  }
-  .top-jumbo .container .right-side {
-    width: 50%;
-  }
-  .top-jumbo .container .right-side img {
-    top: 44px;
-    left: 29px;
-  } */
-}
-
-@media only screen and (max-width: 767px) {
   header .header-btn {
     display: block;
     width: 100%;
     margin: 25px auto;
+  }
+  header .header-btn .blue-btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  header .header-btn .orange-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
   }
   .container {
     max-width: 100%;
@@ -860,6 +823,7 @@ footer .social-media li {
   .top-jumbo .container .left-side {
     width: 100%;
     text-align: center;
+    padding: 20px;
   }
   .top-jumbo .container .left-side .bg-text .ps-text {
     font-size: 200px;
@@ -888,7 +852,7 @@ footer .social-media li {
   }
   .top-jumbo .container .right-side img {
     top: 0;
-    left: 91px;
+    left: 46px;
     width: 80%;
   }
 
@@ -914,19 +878,59 @@ footer .social-media li {
     display: inline-block;
     float: left;
   }
+  .info-section-2 .container .right-side .col-1 {
+    display: inline-block;
+    float: left;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .info-section-2 .container .right-side .col-2 {
+    display: inline-block;
+    width: 10%;
+    float: right;
+    position: relative;
+}
+  .info-section-2 .container .right-side .col-2 .color-selector {
+    right: 7px;
+    top: -223px;
+  }
+  .info-section-2 .container .right-side .col-2 .color-picker {
+    display: inline-block;
+    float: none;
+    margin-right: 0;
+}
   .games-gallery .gallery-info {
-    padding: 100px 50px;
+    padding: 50px 20px;
+  }
+  .games-gallery .game-bg-image .games-info {
+    width: 100%;
+    margin: 0;
+  }
+  .games-gallery .game-bg-image-2 .games-info {
+    width: 100%;
+    margin: 0;
+  }
+  .games-gallery .game-bg-image-3 .games-info {
+    width: 100%;
+    margin: 0;
+  }
+  .games-gallery .game-bg-image {
+    height: 380px;
+  }
+  .games-gallery .game-bg-image-2 {
+    height: 380px;
+  }
+  .games-gallery .game-bg-image-3 {
+    height: 380px;
   }
   .games-gallery .game-bg-image .steps-left .step-1 {
     display: none;
   }
   .games-gallery .game-bg-image .steps-left .step-2 {
-    width: 388px;
+    display: none;
   }
   .games-gallery .game-bg-image-3 .steps-right .step-1 {
-    position: relative;
-    top: 50px;
-    width: 388px;
+    display: none;
   }
   .games-gallery .game-bg-image-3 .steps-right .step-2 {
     display: none;
@@ -936,10 +940,27 @@ footer .social-media li {
   }
   .latest-area .head {
     width: 100%;
+    margin-bottom: 150px;
+  }
+  .latest-area .head h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .latest-area .head .directions {
+    width: 100%;
+  }
+  .latest-area .body {
+    padding: 0;
+  }
+  .latest-area .body .column .bg-square .cart {
+    top: -86px;
+    left: 226px;
   }
   .latest-area .body .column {
     width: 100%;
     display: block;
+    margin: 30px auto;
   }
   .latest-area .body .column .price {
     margin-bottom: 50px;
@@ -953,19 +974,224 @@ footer .social-media li {
     display: block;
   }
   .latest-area .footer form .name-input {
-    width: 30%;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
   .latest-area .footer form .email-input {
-    width: 68%;
+    width: 100%;
+    display: block;
+  }
+  .latest-area .footer form .email-input input {
+    width: 50%;
   }
   .latest-area .footer form .email-input button {
-    padding: 10px 15px;
+    padding: 10px 25px;
   }
   footer .steps-left .step-1 {
     display: none;
   }
   footer .steps-left .step-2 {
-    width: 388px;
+    display: none;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  header .header-btn {
+    display: block;
+    width: 100%;
+    margin: 25px auto;
+  }
+  header .header-btn .blue-btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  header .header-btn .orange-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .container {
+    max-width: 100%;
+  }
+  .top-jumbo .container .left-side {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  .top-jumbo .container .left-side .bg-text .ps-text {
+    font-size: 200px;
+    left: -7px;
+  }
+  .top-jumbo .container .left-side h1 {
+    font-size: 1.6rem;
+  }
+  .top-jumbo .container .left-side p {
+    font-size: 1rem;
+  }
+  .top-jumbo .container .left-side form {
+    width: 100%;
+  }
+  .top-jumbo .container .left-side form .far {
+    margin-left: 0;
+  }
+  .top-jumbo .container .left-side form input {
+    width: 60%;
+  }
+  .top-jumbo .container .left-side form button {
+    width: 30%;
+  }
+  .top-jumbo .container .right-side {
+    width: 100%;
+  }
+  .top-jumbo .container .right-side img {
+    top: 0;
+    left: 46px;
+    width: 80%;
+  }
+
+ .info-section .container .container-fluid .info-box-left {
+    width: 100%;
+    display: block;
+  }
+  .info-section .container .container-fluid .icons-box-right {
+    width: 100%;
+    display: block;
+  }
+  .info-section .container .container-fluid .icons-box-right .refresh-circle {
+    top: 69%;
+    left: 45%;
+  }
+  .info-section-2 .container .left-side {
+    width: 100%;
+    display: block;
+  }
+  .info-section-2 .container .right-side {
+    width: 100%;
+    margin-top: 150px;
+    display: inline-block;
+    float: left;
+  }
+  .info-section-2 .container .right-side .col-1 {
+    display: inline-block;
+    float: left;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .info-section-2 .container .right-side .col-2 {
+    display: inline-block;
+    width: 10%;
+    float: right;
+    position: relative;
+}
+  .info-section-2 .container .right-side .col-2 .color-selector {
+    right: 7px;
+    top: -223px;
+  }
+  .info-section-2 .container .right-side .col-2 .color-picker {
+    display: inline-block;
+    float: none;
+    margin-right: 0;
+}
+  .games-gallery .gallery-info {
+    padding: 50px 20px;
+  }
+  .games-gallery .game-bg-image .games-info {
+    width: 100%;
+    margin: 0;
+  }
+  .games-gallery .game-bg-image-2 .games-info {
+    width: 100%;
+    margin: 0;
+  }
+  .games-gallery .game-bg-image-3 .games-info {
+    width: 100%;
+    margin: 0;
+  }
+  .games-gallery .game-bg-image {
+    height: 380px;
+  }
+  .games-gallery .game-bg-image-2 {
+    height: 380px;
+  }
+  .games-gallery .game-bg-image-3 {
+    height: 380px;
+  }
+  .games-gallery .game-bg-image .steps-left .step-1 {
+    display: none;
+  }
+  .games-gallery .game-bg-image .steps-left .step-2 {
+    display: none;
+  }
+  .games-gallery .game-bg-image-3 .steps-right .step-1 {
+    display: none;
+  }
+  .games-gallery .game-bg-image-3 .steps-right .step-2 {
+    display: none;
+  }
+  .latest-area {
+    padding: 0 50px;
+  }
+  .latest-area .head {
+    width: 100%;
+    margin-bottom: 150px;
+  }
+  .latest-area .head h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .latest-area .head .directions {
+    width: 100%;
+  }
+  .latest-area .body {
+    padding: 0;
+  }
+  .latest-area .body .column .bg-square .cart {
+    top: -86px;
+    left: 226px;
+  }
+  .latest-area .body .column {
+    width: 100%;
+    display: block;
+    margin: 30px auto;
+  }
+  .latest-area .body .column .price {
+    margin-bottom: 50px;
+  }
+  .latest-area .footer h2 {
+    font-size: 2rem;
+  }
+  .latest-area .footer form {
+    padding: 0;
+    width: 100%;
+    display: block;
+  }
+  .latest-area .footer form .name-input {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .latest-area .footer form .email-input {
+    width: 100%;
+    display: block;
+  }
+  .latest-area .footer form .email-input input {
+    width: 50%;
+  }
+  .latest-area .footer form .email-input button {
+    padding: 10px 25px;
+  }
+  footer .steps-left .step-1 {
+    display: none;
+  }
+  footer .steps-left .step-2 {
+    display: none;
   }
 
 }
