@@ -1,402 +1,480 @@
-
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 html {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 body {
-    background-color: #fafafa;
+  background-color: #fafafa;
+  position: relative;
 }
 a {
-    text-decoration: none;
-    color: #2196f3;
+  text-decoration: none;
+  color: #2196f3;
 }
 header {
-    background: #385998;
-    padding: 15px;
+  background: #385998;
+  padding: 15px;
+  position: relative;
 }
 header .logo {
-    display: inline-block;
-    width: 20%;
-    margin-left: -4px;
+  display: inline-block;
+  width: 20%;
+  margin-left: -4px;
 }
 header .logo a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 header .menu {
-    display: inline-block;
-    width: 20%;
-    margin-left: -4px;
-    border-right: 1px solid rgba(225, 225, 225, .5);
-    text-align: center;
+  display: inline-block;
+  width: 20%;
+  margin-left: -4px;
+  border-right: 1px solid rgba(225, 225, 225, 0.5);
+  text-align: center;
 }
 header .menu a {
-    text-decoration: none;
-    color: #fff;
-    margin-right: 20px;
-    font-size: 14px;
-    font-weight: 200;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 200;
 }
 header .menu ul li {
-    display: inline-block;
+  display: inline-block;
 }
-header .icon-area{
-    display: inline-block;
-    width: 20%;
-    margin-left: -4px;
-    border-right: 1px solid rgba(225, 225, 225, .5);
-    text-align: center;
+header .icon-area {
+  display: inline-block;
+  width: 20%;
+  margin-left: -4px;
+  border-right: 1px solid rgba(225, 225, 225, 0.5);
+  text-align: center;
 }
 header .icon-area a {
-    color: #fff;
-    margin-right: 20px;
-    font-size: 14px;
+  color: #fff;
+  margin-right: 20px;
+  font-size: 14px;
 }
 header .icon-area ul li {
-    display: inline-block;
+  display: inline-block;
 }
 header .search-area {
-    display: inline-block;
-    color: #fff;
-    width: 40%;
-    margin-left: -4px;
-    text-align: right;
+  display: inline-block;
+  color: #fff;
+  width: 40%;
+  margin-left: -4px;
+  text-align: right;
 }
 header .search-area ul li {
-    display: inline-block;
+  display: inline-block;
 }
 header .search-area input {
-    background: #385998;
-    width: 250px;
-    color: #fff;
-    padding: 5px;
-    border: none;
-    border-bottom: 1px solid rgba(225, 225, 225, .5);
+  background: #385998;
+  width: 250px;
+  color: #fff;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid rgba(225, 225, 225, 0.5);
 }
-header .search-area input:focus{
-    outline:none;
-   }
-   header .search-area input::placeholder {
-       color: #fff;
-       font-weight: 200;
-   }
-   header .fas {
-    font-size: 14px;
-   }
-   /*/////////////////////////////////TOP-AREA////////////////////////////// */
-   .top-area {
-       padding: 200px 15px 90px 15px;
-       background: url(https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center fixed;
-       -webkit-background-size: cover;
-       -moz-background-size: cover;
-       -o-background-size: cover;
-       background-size: cover;
-   }
-   .top-area .profile-info .user-img {
-       display: inline-block;
-   }
-   .top-area .profile-info .user-img img {
-       border-radius: 50%;
-       width: 200px;
-   }
-   .top-area .profile-info .user-info {
-       display: inline-block;
-       vertical-align: top;
-       padding-left: 20px;
-   }
-   .top-area .profile-info .user-info h3 {
-       color: #fff;
-       margin-top: 50px;
-       margin-left: -6px;
-       font-size: 35px;
-       font-weight: 200;
-       margin-bottom: 10px;
-       width: 350px;
-   }
-   .top-area .profile-info .user-info a {
-       display: inline-block;
-       color: #fff;
-       background: rgba(225, 225, 225, .3);
-       text-align: center;
-       text-transform: uppercase;
-       font-size: 10px;
-       margin-left: -4px;
-       margin-right: 5%;
-       padding: 10px;
-       width: 45%;
-       -webkit-border-radius: 3px;
-       -moz-border-radius: 3px;
-       border-radius: 3px;
-   }
-   /* ////////////////////////////////CONTENT-AREA-SIDE-COLUMN/////////////////////////////////// */
-   .content-area {
-       background: #fafafa;
-       overflow: auto;
-       margin-top: 35px;
-   }
-   .content-area .widget-box {
-    margin-bottom: 20px;
-    overflow: auto;
-    background: #fff;
-    padding: 15px;
-    -webkit-box-shadow: 1px 1px 5px 0px rgba(194,190,194,1);
-    -moz-box-shadow: 1px 1px 5px 0px rgba(194,190,194,1);
-    box-shadow: 1px 1px 5px 0px rgba(194,190,194,1);
-    border-radius: 3px;
-    }
-   .content-area .side-column {
-       float: left;
-       width: 35%;
-       margin: 0 2.5%;
-       background: #fafafa;
-   }
-   .content-area .side-column .widget-box .head .widget-img {
-       width: 40px;
-       height: 40px;
-       background: #DEDEDE;
-       border-radius: 50px;
-       font-size: 20px;
-       display: inline-block;
-       text-align: center;
-       vertical-align: middle;
-       line-height: 40px;
-   }
-   .content-area .side-column .widget-box .head .widget-title h6 {
-       color: #5C5C5C;
-       font-weight: 300;
-       font-size: 14px;
-       display: inline-block;
-       margin-left: 5px;
-   }
-   .content-area .side-column .widget-box .body h6 {
-       color: #5C5C5C;
-       line-height: 1.5;
-       font-weight: 300;
-       font-size: 14px;
-   }
-   .content-area .side-column .widget-box .body p {
-       color: #969696;
-       line-height: 1;
-       font-weight: 300;
-       font-size: 14px;
-       margin-bottom: 20px;
-   }
-   .content-area .side-column .widget-box .body a {
-       color: #2196f3;
-       font-size: 12px;
-   }
-   .content-area .side-column .widget-box .head .fas, .far {
-       color: #fff;
-   }
-   .content-area .side-column .widget-box .head .widget-drop-icon .fas {
-       color: #DEDEDE;
-       font-size: 20px;
-       margin-top: 10px;
-   }
-   .content-area .side-column .widget-box .head .widget-drop-icon {
-       float: right;
-   }
-   .content-area .side-column .widget-box .head .widget-title {
-       display: inline-block;
-       margin-left: 10px;
-       margin-top: 5px;
-       font-size: 16px;
-       text-align: center;
-       vertical-align: middle;
-       line-height: 40px;
-   }
-   .content-area .side-column .widget-box .body {
-       margin-top: 15px;
-   }
-   .content-area .side-column .widget-box .body .user-photos {
-       float: left;
-       margin: 2.5px;
-       width: 31.5%;
-       height: 110px;
-       background: url('../img/user.jpg') no-repeat center center;
-       -webkit-background-size: cover;
-       -moz-background-size: cover;
-       -o-background-size: cover;
-       background-size: cover;
-   }
-   .content-area .side-column .widget-box .body .friend-photos {
-    float: left;
-    margin: 2.5px;
-    width: 31.5%;;
-    height: 110px;
-    background: url('../img/user.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-   }
+header .search-area input:focus {
+  outline: none;
+}
+header .search-area input::placeholder {
+  color: #fff;
+  font-weight: 200;
+}
+header .fas {
+  font-size: 14px;
+}
+/*/////////////////////////////////TOP-AREA////////////////////////////// */
+.top-area {
+  padding: 200px 15px 90px 15px;
+  background: url(https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+.top-area .profile-info .user-img {
+  display: inline-block;
+}
+.top-area .profile-info .user-img img {
+  border-radius: 50%;
+  width: 200px;
+}
+.top-area .profile-info .user-info {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 20px;
+}
+.top-area .profile-info .user-info h3 {
+  color: #fff;
+  margin-top: 50px;
+  margin-left: -6px;
+  font-size: 35px;
+  font-weight: 200;
+  margin-bottom: 10px;
+  width: 350px;
+}
+.top-area .profile-info .user-info a {
+  display: inline-block;
+  color: #fff;
+  background: rgba(225, 225, 225, 0.3);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  margin-left: -4px;
+  margin-right: 5%;
+  padding: 10px;
+  width: 45%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+/* ////////////////////////////////CONTENT-AREA-SIDE-COLUMN/////////////////////////////////// */
+.content-area {
+  background: #fafafa;
+  margin-top: 35px;
+  position: relative;
+}
+.content-area .widget-box {
+  position: relative;
+  margin-bottom: 20px;
+  overflow: auto;
+  background: #fff;
+  padding: 15px;
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(194, 190, 194, 1);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(194, 190, 194, 1);
+  box-shadow: 1px 1px 5px 0px rgba(194, 190, 194, 1);
+  border-radius: 3px;
+}
+.content-area .side-column {
+  float: left;
+  width: 35%;
+  margin: 0 2.5%;
+  background: #fafafa;
+  position: relative;
+}
+.content-area .side-column .widget-box .head .widget-img {
+  width: 40px;
+  height: 40px;
+  background: #dedede;
+  border-radius: 50px;
+  font-size: 20px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+.content-area .side-column .widget-box .head .widget-title h6 {
+  color: #5c5c5c;
+  font-weight: 300;
+  font-size: 14px;
+  display: inline-block;
+  margin-left: 5px;
+}
+.content-area .side-column .widget-box .body h6 {
+  color: #5c5c5c;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 14px;
+}
+.content-area .side-column .widget-box .body p {
+  color: #969696;
+  line-height: 1;
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.content-area .side-column .widget-box .body a {
+  color: #2196f3;
+  font-size: 12px;
+}
+.content-area .side-column .widget-box .head .fas,
+.far {
+  color: #fff;
+}
+.content-area .side-column .widget-box .head .widget-drop-icon .fas {
+  color: #dedede;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.content-area .side-column .widget-box .head .widget-drop-icon {
+  float: right;
+}
+.content-area .side-column .widget-box .head .widget-title {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+.content-area .side-column .widget-box .body {
+  margin-top: 15px;
+}
+.content-area .side-column .widget-box .body .user-photos {
+  float: left;
+  margin: 2.5px;
+  width: 31.5%;
+  height: 110px;
+  background: url("../img/user.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.content-area .side-column .widget-box .body .friend-photos {
+  float: left;
+  margin: 2.5px;
+  width: 31.5%;
+  height: 110px;
+  background: url("../img/user.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
-   /* //////////////////////////////////////MAIN-AREA/////////////////////////////////////// */
-   .content-area .main-area {
-    float: left;
-    width: 55%;
-    margin: 0 2.5%;
-   }
-   .content-area .main-area .sub-menu {
-       padding: 0;
-       margin: 0;
-       margin-bottom: 15px;
-   }
-   .content-area .main-area .sub-menu ul li {
-       float: left;
-       width: 20%;
-       text-align: center;
-       padding: 10px;
-       border-bottom: 2px solid #fff;
-       transition: all .4s ease-in-out;
-       color: #969696;
-   }
-   .content-area .main-area .sub-menu ul li i {
-       display: block;
-       color: #969696;
-   }
-   .content-area .main-area .sub-menu ul li span {
-       display: block;
-       font-size: 14px;
-       text-transform: uppercase;
-       margin-top: 15px;
-   }
-   .content-area .main-area .sub-menu ul li:hover {
-    border-bottom: 2px solid #2196f3;
-    color: #2196f3;
-   }
-   .content-area .main-area .sub-menu #submenu-icon {
-       text-align: right;
-       color: #969696;
-       padding: 10px;
-   }
-   .content-area .main-area .post {
-       overflow: auto;
-   }
-   .content-area .main-area .post .head .user-img {
-    width: 40px;
-    height: 40px;
-    float: left;
-    margin-right: 15px;
-    border-radius: 50px;
-    background: url('../img/user.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-   }
-   .content-area .main-area .post .head .post-info {
-       float: left;
-       width: 80%;
-       color: #5C5C5C;
-       font-weight: 300;
-       font-size: 14px;
-   }
-   .content-area .main-area .post .head::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-   .content-area .main-area .post .head .post-info .user-info{
-       display: block;
-       margin: 4px 0 6px 0;
-   }
-   .content-area .main-area .post .head .post-date {
-    color: #969696;
-    line-height: 1;
-    font-weight: 300;
-    font-size: 14px;
-   }
-   .content-area .main-area .post .head .widget-drop-icon .fas {
-    color: #DEDEDE;
-    font-size: 20px;
-    margin-left: 20px;
-    overflow: auto;
-   }
-   .content-area .main-area .post .head .widget-drop-icon {
-    float: right;
-   }
-   .content-area .main-area .post .body {
-       margin: 20px 0 10px 0;
-   }
-   .content-area .main-area .post .body .post-img img {
-       width: 100%;
-   }
-   .content-area .main-area .post .body .post-icons {
-       overflow: auto;
-       padding: 10px;
-       color: #969696;
-   }
-   .content-area .main-area .post .body .post-icons .left-icons {
-       width: 50%;
-       float: left;
-       color: #969696;
-   }
-   .content-area .main-area .post .body .post-icons .right-icons {
-       text-align: right;
-       color: #969696;
-   }
-   .content-area .main-area .post .body .post-icons::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  .content-area .main-area .post .body .comments .user-comm-info {
-      padding: 10px;
-  }
-   .content-area .main-area .post .body .comments .user-comm-info img {
-       width: 40px;
-       border-radius: 50px;
-   }
-   .content-area .main-area .post .body .comments .user-comm-info {
-       background: #fafafa;
-       margin-left: -15px;
-       margin-right: -15px;
-   }
-   .content-area .main-area .post .body .comments .user-comm-info .comm-time {
-       float: right;
-       color: #5C5C5C;
-       font-weight: 300;
-       font-size: 14px;
-   }
-   .content-area .main-area .post .body .comments .user-comm-info p {
-    color: #969696;
-    line-height: 1;
-    font-weight: 300;
-    font-size: 14px;
-    padding: 10px;
-   }
-   .content-area .main-area .post .body .comm-form {
-    padding-top: 10px;
-   }
-   .content-area .main-area .post .body .comm-form img {
-    width: 40px;
-    border-radius: 50px;
-   }
-   .content-area .main-area .post .body .comments .user-comm-info a {
-     position: relative;
-     top: -14px;
-     margin-left: 10px;
-   }
-   .content-area .main-area .post .body .comm-form input {
-    background: #fff;
-    width: 85%;
-    color: #5C5C5C;
-    border: none;
-    border-bottom: 1px solid #969696;
-   }
-   .content-area .main-area .post .body .comm-form input:focus{
-    outline:none;
-   }
-   .content-area .main-area .post .body .comm-form input::placeholder {
-       color: #5C5C5C;
-       font-weight: 200;
-   }
-   .content-area .main-area .post .body .comm-form i {
-       color: #969696;
-       margin-left: 10px;
-   }
+/* //////////////////////////////////////MAIN-AREA/////////////////////////////////////// */
+.content-area .main-area {
+  float: left;
+  width: 55%;
+  margin: 0 2.5%;
+  position: relative;
+  z-index: 9999;
+  top: -80px;
+}
+.content-area .main-area .sub-menu {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 15px;
+  position: relative;
+}
+.content-area .main-area .sub-menu ul li {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 2px solid #fff;
+  transition: all 0.4s ease-in-out;
+  color: #969696;
+  position: relative;
+}
+.content-area .main-area .sub-menu ul li i {
+  display: block;
+  color: #969696;
+  position: relative;
+}
+.content-area .main-area .sub-menu ul li span {
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  position: relative;
+}
+.content-area .main-area .sub-menu ul li:hover {
+  border-bottom: 2px solid #2196f3;
+  color: #2196f3;
+  position: relative;
+}
+.content-area .main-area .sub-menu #submenu-icon {
+  text-align: right;
+  color: #969696;
+  padding: 10px;
+  position: relative;
+}
+.content-area .main-area .post {
+  overflow: auto;
+  position: relative;
+}
+.content-area .main-area .post .head .user-img {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right: 15px;
+  border-radius: 50px;
+  background: url("../img/user.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.content-area .main-area .post .head .post-info {
+  float: left;
+  width: 80%;
+  color: #5c5c5c;
+  font-weight: 300;
+  font-size: 14px;
+}
+.content-area .main-area .post .head::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.content-area .main-area .post .head .post-info .user-info {
+  display: block;
+  margin: 4px 0 6px 0;
+}
+.content-area .main-area .post .head .post-date {
+  color: #969696;
+  line-height: 1;
+  font-weight: 300;
+  font-size: 14px;
+}
+.content-area .main-area .post .head .widget-drop-icon .fas {
+  color: #dedede;
+  font-size: 20px;
+  margin-left: 20px;
+  overflow: auto;
+}
+.content-area .main-area .post .head .widget-drop-icon {
+  float: right;
+}
+.content-area .main-area .post .body {
+  margin: 20px 0 10px 0;
+}
+.content-area .main-area .post .body .post-img img {
+  width: 100%;
+}
+.content-area .main-area .post .body .post-icons {
+  overflow: auto;
+  padding: 10px;
+  color: #969696;
+}
+.content-area .main-area .post .body .post-icons .left-icons {
+  width: 50%;
+  float: left;
+  color: #969696;
+}
+.content-area .main-area .post .body .post-icons .right-icons {
+  text-align: right;
+  color: #969696;
+}
+.content-area .main-area .post .body .post-icons::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.content-area .main-area .post .body .comments .user-comm-info {
+  padding: 10px;
+}
+.content-area .main-area .post .body .comments .user-comm-info img {
+  width: 40px;
+  border-radius: 50px;
+}
+.content-area .main-area .post .body .comments .user-comm-info {
+  background: #fafafa;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.content-area .main-area .post .body .comments .user-comm-info .comm-time {
+  float: right;
+  color: #5c5c5c;
+  font-weight: 300;
+  font-size: 14px;
+}
+.content-area .main-area .post .body .comments .user-comm-info p {
+  color: #969696;
+  line-height: 1;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 10px;
+}
+.content-area .main-area .post .body .comm-form {
+  padding-top: 10px;
+}
+.content-area .main-area .post .body .comm-form img {
+  width: 40px;
+  border-radius: 50px;
+}
+.content-area .main-area .post .body .comments .user-comm-info a {
+  position: relative;
+  top: -14px;
+  margin-left: 10px;
+}
+.content-area .main-area .post .body .comm-form input {
+  background: #fff;
+  width: 85%;
+  color: #5c5c5c;
+  border: none;
+  border-bottom: 1px solid #969696;
+}
+.content-area .main-area .post .body .comm-form input:focus {
+  outline: none;
+}
+.content-area .main-area .post .body .comm-form input::placeholder {
+  color: #5c5c5c;
+  font-weight: 200;
+}
+.content-area .main-area .post .body .comm-form i {
+  color: #969696;
+  margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 767px) {
+  header {
+    width: 100%;
+ }
+ header .menu {
+    display: none;
+ }
+ header .icon-area {
+    display: none;
+ }
+ header .search-area {
+    width: 80%;
+ }
+ header .search-area input {
+   width: 90%;
+ }
+ .top-area {
+   width: 100%;
+   padding: 100px 20px;
+ }
+ .top-area .profile-info .user-img img {
+    margin: 0;
+    position: relative;
+    right: -65px;
+ }
+ .top-area .profile-info .user-info {
+    width: 100%;
+    padding: 0;
+ }
+ .top-area .profile-info .user-info h3 {
+    width: 100%;
+    text-align: center;
+ }
+ .top-area .profile-info .user-info a {
+   width: 100%;
+   display: block;
+   margin-top: 20px;
+ }
+ .content-area {
+    width: 100%;
+ }
+ .content-area .side-column {
+    width: 100%;
+    display: block;
+ }
+ .content-area .widget-box {
+   width: 100%;
+   display: block;
+ }
+ .content-area .main-area {
+   width: 100%;
+   display: block;
+   top: 0;
+ }
+ .content-area .main-area .post .body .comm-form input {
+    width: 65%;
+ }
+
+
+}
