@@ -1,0 +1,21 @@
+h1 {
+    display: block;
+    color: blueviolet;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    height: 80vh;
+}
+
+p {
+    font-size: 20px;
+}
+
+.winner {
+    color: green;
+}
