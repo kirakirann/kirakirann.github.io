@@ -86,6 +86,18 @@
 .email-modal__highlight-text {
     color: white;
 }
+.email-modal__error-message {
+    color: #fbe743;
+    display: none;
+    font-size: .7rem;
+    margin-bottom: .7rem;
+}
+.email-modal__error-message--active {
+    display: block;
+}
+.email-modal__form-group--error {
+    border: 1px solid  red;
+}
 .email-modal__form-group {
     background: white;
     display: flex;
